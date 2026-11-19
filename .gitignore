@@ -24,6 +24,8 @@
 /tools/*
 !/tools/vbcheck.py
 !/tools/README.md
+!/tools/mkalpha.py
+!/alpha/
 !/tools/decstats.py
 !/tools/rtother.py
 !/tools/roundtrip.py

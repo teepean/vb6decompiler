@@ -22,6 +22,7 @@ Tools that build or run programs need VB6 under Wine: see the main README.
 | `m60sym.py` | COFF symbols of msvbvm60.dbg mapped through OMAP_FROM_SRC to the final DLL; writes rva name(undecorated) |
 | `checkdecode.py` | disasm.decode (plain Insn objects, encodings in a trie) against capstone, for every instruction Model(EXE) decodes: all that callers can read of it. |
 | `targetrun.py` | Decompile and build a list of programs one by one: what fails, and how much of it (for programs with no source, whose output stays private: the results only improve the decompiler). |
+| `mkalpha.py` | Make the Windows package (embedded Python, the decompiler, alpha/README.txt, vb6dec.bat, LICENSE.txt) as a folder and a zip; it stops if privscan.py finds a private name in what would ship. |
 
 ## Building and round-tripping with VB6 under Wine
 

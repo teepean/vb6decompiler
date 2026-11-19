@@ -43,6 +43,16 @@ procedure names while testing. The decompiler does not need it.
 
 A small program takes seconds. A very large one can take ten minutes or more and several GB of memory.
 
+### The Windows package
+
+Releases carry a zip that needs nothing but Windows and VB6: an embedded Python, the decompiler and a
+`vb6dec.bat` to drop an EXE on (`alpha/README.txt` is its README). `tools/mkalpha.py` builds it:
+
+    python tools/mkalpha.py NEW_FOLDER --embed python-3.14.x-embed-amd64.zip \
+        --wheel capstone-...-win_amd64.whl --wheel pefile-...-py3-none-any.whl
+
+The package is named after `VERSION` in `run_vb6dec.py`.
+
 ## What to expect
 
 - A compiled program has no comments or local variable names, so you get names like `v24`, `a1` and

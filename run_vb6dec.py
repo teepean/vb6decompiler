@@ -16,6 +16,7 @@ import time
 import traceback
 
 VERSION = "alpha 2"
+ISSUES = "https://github.com/teepean/vb6decompiler/issues"
 HERE = os.path.dirname(os.path.abspath(__file__))
 for d in (HERE, os.path.join(HERE, "lib")):
     if d not in sys.path:
@@ -200,7 +201,7 @@ def main(argv):
             return 3
         report = write_report(out, exe, time.time() - t0, traceback.format_exc())
         print("\nSomething went wrong inside the decompiler (%s: %s)." % (type(e).__name__, e))
-        print("Please send this file to whoever gave you vb6dec: %s" % report)
+        print("Please report it at %s and attach this file: %s" % (ISSUES, report))
         return 4
     sys.stderr = err.out
     failed = [ln.strip() for ln in "".join(err.lines).split("\n") if ln.startswith("decompile: ")]
@@ -244,7 +245,7 @@ def started():
             code = 2
     except Exception:
         traceback.print_exc(file=sys.stdout)
-        print("\nSomething went wrong (vb6dec %s).  Please send this text to whoever gave you vb6dec." % VERSION)
+        print("\nSomething went wrong (vb6dec %s).  Please report it at %s with this text." % (VERSION, ISSUES))
         code = 4
     if " /c " in os.environ.get("VB6DEC_STARTED", "").lower() and sys.stdin is not None and sys.stdin.isatty():
         try:
