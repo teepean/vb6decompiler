@@ -93,9 +93,18 @@ are cached in `VB6RTCACHE` (default `/tmp/vb6dec-rtcache`).
 
 They need Wine, `xdotool`, and ImageMagick's `import` command (for screenshots of message boxes). They also
 need a Wine prefix with VB6 installed, set by `VB6WINE`. VB6 and its licence keys have to come from your own
-installation. `VB6DIR=VB98SP6` builds with Service Pack 6 if the prefix has it. Projects with ActiveX
-controls also need a patched VB6.EXE that works around bugs in Wine's type library code; that patch is not in
-this repository.
+installation. `VB6DIR=VB98SP6` builds with Service Pack 6 if the prefix has it.
+
+Projects with ActiveX controls need VB6.EXE patched to load `tools/vb6fix/vb6fix.dll`, which works around five
+bugs in Wine's type library and picture code (described in `vb6fix.c`):
+
+    sh tools/vb6fix/build.sh                       # optional: rebuild vb6fix.dll and regtlb.exe with MinGW
+    python tools/patchvb6.py "$VB6WINE/drive_c/Program Files/Microsoft Visual Studio/VB98/VB6.EXE"
+
+`patchvb6.py` keeps the original as `VB6.EXE.orig`, adds an import of vb6fix.dll in a new section without
+changing any VB6 code, and copies the DLL next to VB6.EXE. `--check` only reports whether a VB6.EXE is patched.
+`regtlb.exe FILE...` registers type libraries under Wine, which has no tool for that. MSCOMCTL.OCX, for
+example, needs MSDATSRC.TLB registered.
 
 ## Testing
 

@@ -12,7 +12,7 @@ available"), plus the VBA / VB runtime / VB6.OLB type library registrations.
 
 Forms build too (2026-10-28: all the VM-built form tests do), and so do
 ActiveX controls once VB6.EXE imports tools/vb6fix/vb6fix.dll, which works
-around four bugs in Wine's type library code (tools/patchvb6.py).  The
+around five bugs in Wine's type library and picture code (tools/patchvb6.py).  The
 crash of 2026-10-24 (a NULL interface released at VB6.EXE+0x581F1, before
 LINK) shows as "VB6 wrote no log".  VB6DIR=VB98SP6 builds with Service
 Pack 6.

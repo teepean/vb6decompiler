@@ -23,6 +23,8 @@
 !/tools/rtother.py
 !/tools/roundtrip.py
 !/tools/vbmake.py
+!/tools/patchvb6.py
+!/tools/vb6fix/
 !/tools/ocxbag/
 __pycache__/
 *.pyc
