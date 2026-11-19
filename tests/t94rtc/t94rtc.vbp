@@ -1,0 +1,9 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\SYSTEM\STDOLE2.TLB#OLE Automation
+Module=mM; mM.bas
+Class=cK; cK.cls
+Startup="Sub Main"
+ExeName32="t94rtc.exe"
+Name="t94rtc"
+[VBCompiler]
+LinkSwitches=/MAP

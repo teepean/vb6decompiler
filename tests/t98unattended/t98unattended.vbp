@@ -1,0 +1,19 @@
+Type=Exe
+Module=mM; mM.bas
+Startup="Sub Main"
+Command32=""
+Name="t98unattended"
+ExeName32="t98unattended.exe"
+CompilationType=0
+OptimizationType=1
+Unattended=1
+Retained=0
+MajorVer=0
+MinorVer=7
+RevisionVer=9999
+AutoIncrementVer=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[VBCompiler]
+LinkSwitches=/MAP

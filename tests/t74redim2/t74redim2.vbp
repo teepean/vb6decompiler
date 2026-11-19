@@ -1,0 +1,7 @@
+Type=Exe
+Module=mM; mM.bas
+Startup="Sub Main"
+Name="t74redim2"
+ExeName32="t74redim2.exe"
+CompilationType=0
+OptimizationType=0

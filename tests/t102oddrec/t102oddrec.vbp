@@ -1,0 +1,11 @@
+Type=Exe
+Module=mM; mM.bas
+Startup="Sub Main"
+Command32=""
+Name="t102oddrec"
+ExeName32="t102oddrec.exe"
+CompilationType=0
+OptimizationType=0
+
+[VBCompiler]
+LinkSwitches=/MAP

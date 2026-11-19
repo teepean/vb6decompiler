@@ -1,0 +1,11 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\SYSTEM\STDOLE2.TLB#OLE Automation
+UserControl=UC1.ctl
+Form=Form1.frm
+Startup="Form1"
+ExeName32="t25usercontrol.exe"
+Name="t25usercontrol"
+CompilationType=0
+OptimizationType=0
+[VBCompiler]
+LinkSwitches=/MAP

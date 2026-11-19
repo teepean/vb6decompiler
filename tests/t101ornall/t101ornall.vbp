@@ -1,0 +1,12 @@
+Type=Exe
+Module=mM; mM.bas
+Class=cT; cT.cls
+Startup="Sub Main"
+Command32=""
+Name="t101ornall"
+ExeName32="t101ornall.exe"
+CompilationType=0
+OptimizationType=0
+
+[VBCompiler]
+LinkSwitches=/MAP

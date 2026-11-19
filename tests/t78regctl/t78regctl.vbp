@@ -1,0 +1,10 @@
+Type=Exe
+Form=frmR.frm
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\SYSTEM\STDOLE2.TLB#OLE Automation
+Startup="frmR"
+ExeName32="t78regctl.exe"
+Name="t78regctl"
+CompilationType=0
+OptimizationType=0
+[VBCompiler]
+LinkSwitches=/MAP

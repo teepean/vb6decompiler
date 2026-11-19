@@ -1,0 +1,12 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\SYSTEM\STDOLE2.TLB#OLE Automation
+Module=mM; mM.bas
+Class=IA; IA.cls
+Class=cD; cD.cls
+Startup="Sub Main"
+ExeName32="t49implcast.exe"
+Name="t49implcast"
+CompilationType=0
+OptimizationType=0
+[VBCompiler]
+LinkSwitches=/MAP

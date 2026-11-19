@@ -1,0 +1,10 @@
+Type=Exe
+Module=mMain; mMain.bas
+Class=cL; cL.cls
+Startup="Sub Main"
+Name="LateOrder"
+CompilationType=0
+OptimizationType=0
+ExeName32="lateorder.exe"
+[VBCompiler]
+LinkSwitches=/MAP

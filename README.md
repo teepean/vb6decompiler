@@ -74,6 +74,7 @@ A small program takes seconds. A very large one can take ten minutes or more and
 | output | `render.py`, `writer.py` | VB source text and the project files |
 
 `tools/vbcheck.py PROJECT_DIR` finds some things VB6 would reject in the output. run_vb6dec.py runs it.
+`tools/README.md` lists every tool in `tools/` with a line on what it does.
 `tools/ocxbag/build.sh` builds `ocxbag.exe` with MinGW.
 
 Two tools compare decompilers. `tools/decstats.py DIR...` counts, per procedure, the machine-level code left in
@@ -108,11 +109,18 @@ example, needs MSDATSRC.TLB registered.
 
 ## Testing
 
-The test projects are not in this repository. Each one is a small VB6 project written to exercise one
-construct. It is compiled with VB6, decompiled, compiled again, and both builds must give the same output.
-Over 120 such projects pass, with and without a map file. Between them they cover every runtime function a
-program commonly calls, plus Implements, WithEvents, GoSub, AddressOf, For Each, Currency, Decimal, line
-numbers and Erl.
+`tests/` (68 projects) and `tests_wip/coverage/` (52) are small VB6 projects, each written to exercise one
+construct. Each is compiled with VB6, decompiled, compiled again, and both builds must give the same output
+(`out.txt`, or the files the test's `rt.txt` names). Between them they cover every runtime function a program
+commonly calls, plus Implements, WithEvents, GoSub, AddressOf, For Each, Currency, Decimal, line numbers and
+Erl. All of them pass with and without a map file, except `t36lset` in coverage, an open bug.
+
+    python tools/rtsuite.py -j 4 WORKDIR                               # tests/, each with and without the map
+    python tools/rtsuite.py -j 4 --tests tests_wip/coverage WORKDIR    # the coverage tests
+    python tools/rtsuite.py WORKDIR t01m t03c                          # some of them
+
+This needs VB6 under Wine (see the round-trip harness above). The source files are ANSI with CRLF line ends,
+and `.gitattributes` keeps Git from converting them.
 
 Larger open-source programs, decompiled and rebuilt:
 
@@ -122,6 +130,9 @@ Larger open-source programs, decompiled and rebuilt:
 - VBDoom, a 29k-line Doom port compiled without optimisation: the same per-tic state and the same
   screenshots over a demo.
 - VbQRCodegen, ZipArchive, VBA-JSON and VBA-Dictionary: the same program output.
+
+These programs belong to their authors and are not in this repository. Get them from their own repositories to
+test with them.
 
 ## License
 

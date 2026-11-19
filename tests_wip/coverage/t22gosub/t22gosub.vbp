@@ -1,0 +1,10 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\SYSTEM\STDOLE2.TLB#OLE Automation
+Module=mM; mM.bas
+Startup="Sub Main"
+ExeName32="t22gosub.exe"
+Name="t22gosub"
+CompilationType=0
+OptimizationType=0
+[VBCompiler]
+LinkSwitches=/MAP

@@ -1,0 +1,13 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\WINDOWS\SYSTEM\STDOLE2.TLB#OLE Automation
+Module=mM; mM.bas
+Class=cP; cP.cls
+Class=cH; cH.cls
+Startup="Sub Main"
+Command32=""
+Name="t96sbfix"
+ExeName32="t96sbfix.exe"
+CompilationType=0
+OptimizationType=0
+[VBCompiler]
+LinkSwitches=/MAP

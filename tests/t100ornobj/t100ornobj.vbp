@@ -1,0 +1,18 @@
+Type=Exe
+Module=mM; mM.bas
+Form=Form1.frm
+Form=Form2.frm
+Startup="Sub Main"
+Title="OrnTitle"
+Command32=""
+Name="t100ornobj"
+ExeName32="t100ornobj.exe"
+MajorVer=4
+MinorVer=2
+RevisionVer=0
+AutoIncrementVer=0
+CompilationType=0
+OptimizationType=0
+
+[VBCompiler]
+LinkSwitches=/MAP
