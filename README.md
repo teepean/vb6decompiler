@@ -79,8 +79,23 @@ A small program takes seconds. A very large one can take ten minutes or more and
 Two tools compare decompilers. `tools/decstats.py DIR...` counts, per procedure, the machine-level code left in
 decompiled output: runtime helpers left as calls, raw memory, members known only by vtable slot, CPU registers.
 `tools/rtother.py --other 'CMD {exe} {out}' WORKDIR` runs test projects through vb6dec and another decompiler,
-then rebuilds each output with VB6 under Wine and compares its behaviour with the original's. It needs the
-round-trip harness (`roundtrip.py`, `vbmake.py`), which is not in this repository yet.
+then rebuilds each output with VB6 under Wine and compares its behaviour with the original's.
+
+The round-trip harness that rtother.py uses can also be run directly:
+
+    python tools/vbmake.py PROJECT.vbp              # build with VB6 under Wine, print VB6's log
+    python tools/roundtrip.py [--nomap] PROJECT.vbp WORKDIR   # build, decompile, rebuild, compare
+
+`roundtrip.py` builds the project with VB6, decompiles the EXE, builds the output again, and checks that both
+EXEs carry the same project properties and that both builds write the same `out.txt`. An `rt.txt` beside the
+`.vbp` can name other files to compare, arguments and a timeout (see the script). The original's build and runs
+are cached in `VB6RTCACHE` (default `/tmp/vb6dec-rtcache`).
+
+They need Wine, `xdotool`, and ImageMagick's `import` command (for screenshots of message boxes). They also
+need a Wine prefix with VB6 installed, set by `VB6WINE`. VB6 and its licence keys have to come from your own
+installation. `VB6DIR=VB98SP6` builds with Service Pack 6 if the prefix has it. Projects with ActiveX
+controls also need a patched VB6.EXE that works around bugs in Wine's type library code; that patch is not in
+this repository.
 
 ## Testing
 
