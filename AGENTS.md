@@ -74,6 +74,9 @@ for example from `Form_Load` or `Sub Main`.
 
 ## Facts about VB6 native code that took long to find
 
+`docs/vb6-findings.md` has all the notes, section by section. Add a note there with each finding, in the same
+privacy terms as tests: no private program, form, procedure or address names. The ones that cost most:
+
 - Module procedures have no names or pointers in a native EXE. Find them through the call graph.
 - The compiler merges identical calls: several arms push their own arguments and jump to one shared call,
   and it can jump into an identical call in another arm. Values pushed across such a merge need their own

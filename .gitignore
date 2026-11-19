@@ -6,6 +6,9 @@
 !/README.md
 !/LICENSE
 !/AGENTS.md
+!/docs/
+/docs/*
+!/docs/vb6-findings.md
 !/CLAUDE.md
 !/requirements.txt
 !/run_vb6dec.py

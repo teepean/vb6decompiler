@@ -73,6 +73,9 @@ A small program takes seconds. A very large one can take ten minutes or more and
 | structure | `structure.py` | If/ElseIf, Do/Loop, For/Next, Select Case, error handlers |
 | output | `render.py`, `writer.py` | VB source text and the project files |
 
+`docs/vb6-findings.md` holds the notes behind each stage: how VB6 lays out a native EXE, what its compiler and
+runtime do, and the decompiler bugs each finding fixed.
+
 `tools/vbcheck.py PROJECT_DIR` finds some things VB6 would reject in the output. run_vb6dec.py runs it.
 `tools/README.md` lists every tool in `tools/` with a line on what it does.
 `tools/ocxbag/build.sh` builds `ocxbag.exe` with MinGW.
