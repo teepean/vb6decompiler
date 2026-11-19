@@ -92,3 +92,9 @@ Larger open-source programs, decompiled and rebuilt:
 - VBDoom, a 29k-line Doom port compiled without optimisation: the same per-tic state and the same
   screenshots over a demo.
 - VbQRCodegen, ZipArchive, VBA-JSON and VBA-Dictionary: the same program output.
+
+## License
+
+vb6dec is free software: you can redistribute it and/or modify it under the terms of the GNU General Public
+License version 3, as published by the Free Software Foundation. It comes with no warranty. See
+[LICENSE](LICENSE) for the full text.
