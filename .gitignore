@@ -4,6 +4,8 @@
 !/.gitignore
 !/README.md
 !/LICENSE
+!/AGENTS.md
+!/CLAUDE.md
 !/requirements.txt
 !/run_vb6dec.py
 !/decompile.py
