@@ -1,0 +1,5841 @@
+{
+"BASIC_CLASS_AddRef": {
+"ordinal": 411,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932143160
+},
+"BASIC_CLASS_GetIDsOfNames": {
+"ordinal": 413,
+"regs": [],
+"ret": [
+24
+],
+"tail": false,
+"va": 1932541641
+},
+"BASIC_CLASS_Invoke": {
+"ordinal": 414,
+"regs": [],
+"ret": [
+36
+],
+"tail": false,
+"va": 1932540195
+},
+"BASIC_CLASS_QueryInterface": {
+"ordinal": 410,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932139726
+},
+"BASIC_CLASS_Release": {
+"ordinal": 412,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932142518
+},
+"BASIC_DISPINTERFACE_GetTICount": {
+"ordinal": 420,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932874070
+},
+"BASIC_DISPINTERFACE_GetTypeInfo": {
+"ordinal": 421,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1932492543
+},
+"CopyRecord": {
+"ordinal": 190,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933105263
+},
+"CreateIExprSrvObj": {
+"ordinal": 2000,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933146941
+},
+"DLLGetDocumentation": {
+"ordinal": 153,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933065064
+},
+"DllCanUnloadNow": {
+"ordinal": 154,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933013791
+},
+"DllFunctionCall": {
+"ordinal": 187,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932153163
+},
+"DllGetClassObject": {
+"ordinal": 155,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933013658
+},
+"DllRegisterServer": {
+"ordinal": 106,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933064317
+},
+"DllUnregisterServer": {
+"ordinal": 107,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933064795
+},
+"EVENT_SINK2_AddRef": {
+"ordinal": 440,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933074435
+},
+"EVENT_SINK2_Release": {
+"ordinal": 441,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933074453
+},
+"EVENT_SINK_AddRef": {
+"ordinal": 401,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932513623
+},
+"EVENT_SINK_GetIDsOfNames": {
+"ordinal": 403,
+"regs": [],
+"ret": [
+24
+],
+"tail": false,
+"va": 1933074471
+},
+"EVENT_SINK_Invoke": {
+"ordinal": 404,
+"regs": [],
+"ret": [
+36
+],
+"tail": false,
+"va": 1932546967
+},
+"EVENT_SINK_QueryInterface": {
+"ordinal": 400,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932562100
+},
+"EVENT_SINK_Release": {
+"ordinal": 402,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932515632
+},
+"EbCreateContext": {
+"ordinal": 274,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932212656
+},
+"EbDestroyContext": {
+"ordinal": 275,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932243417
+},
+"EbGetErrorInfo": {
+"ordinal": 284,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933076580
+},
+"EbGetHandleOfExecutingProject": {
+"ordinal": 232,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932311075
+},
+"EbGetObjConnectionCounts": {
+"ordinal": 1025,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932231955
+},
+"EbGetVBAObject": {
+"ordinal": 2010,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933073488
+},
+"EbIsProjectOnStack": {
+"ordinal": 298,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932237190
+},
+"EbLibraryLoad": {
+"ordinal": 268,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932163255
+},
+"EbLibraryUnload": {
+"ordinal": 269,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932484622
+},
+"EbLoadRunTime": {
+"ordinal": 271,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932220661
+},
+"EbResetProject": {
+"ordinal": 231,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932237219
+},
+"EbResetProjectNormal": {
+"ordinal": 265,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932226821
+},
+"EbSetContextWorkerThread": {
+"ordinal": 276,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932212721
+},
+"GetMem1": {
+"ordinal": 317,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933176256
+},
+"GetMem2": {
+"ordinal": 300,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932253012
+},
+"GetMem4": {
+"ordinal": 301,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933176273
+},
+"GetMem8": {
+"ordinal": 302,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933176290
+},
+"GetMemEvent": {
+"ordinal": 319,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933176525
+},
+"GetMemNewObj": {
+"ordinal": 314,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933176429
+},
+"GetMemObj": {
+"ordinal": 305,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933176313
+},
+"GetMemStr": {
+"ordinal": 303,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933176340
+},
+"GetMemVar": {
+"ordinal": 304,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933176398
+},
+"IID_IVbaHost": {
+"ordinal": 1024,
+"regs": [
+"eax",
+"ecx",
+"edx"
+],
+"ret": [],
+"tail": false,
+"va": 1932770704
+},
+"MethCallEngine": {
+"ordinal": 199,
+"regs": [
+"eax",
+"edx"
+],
+"ret": [],
+"tail": true,
+"va": 1933207906
+},
+"ProcCallEngine": {
+"ordinal": 186,
+"regs": [
+"edx"
+],
+"ret": [],
+"tail": true,
+"va": 1933220123
+},
+"PutMem1": {
+"ordinal": 318,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933176552
+},
+"PutMem2": {
+"ordinal": 306,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932559074
+},
+"PutMem4": {
+"ordinal": 307,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933176567
+},
+"PutMem8": {
+"ordinal": 308,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933176582
+},
+"PutMemEvent": {
+"ordinal": 320,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933177079
+},
+"PutMemNewObj": {
+"ordinal": 315,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933176991
+},
+"PutMemObj": {
+"ordinal": 311,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933176604
+},
+"PutMemStr": {
+"ordinal": 309,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932562793
+},
+"PutMemVar": {
+"ordinal": 310,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933176812
+},
+"SetMemEvent": {
+"ordinal": 321,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1932404564
+},
+"SetMemNewObj": {
+"ordinal": 316,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933177276
+},
+"SetMemObj": {
+"ordinal": 313,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933177095
+},
+"SetMemVar": {
+"ordinal": 312,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933177134
+},
+"ThunRTMain": {
+"ordinal": 100,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932163933
+},
+"TipCreateInstanceEx": {
+"ordinal": 299,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932257792
+},
+"TipCreateInstanceProject2": {
+"ordinal": 230,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933079419
+},
+"TipGetAddressOfPredeclaredInstance": {
+"ordinal": 195,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932258350
+},
+"TipInvokeMethod": {
+"ordinal": 1016,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933101583
+},
+"TipInvokeMethod2": {
+"ordinal": 999,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933101295
+},
+"TipSetOption": {
+"ordinal": 220,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933074828
+},
+"TipUnloadInstance": {
+"ordinal": 266,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932402532
+},
+"TipUnloadProject": {
+"ordinal": 227,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932237784
+},
+"UserDllMain": {
+"ordinal": 105,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1932455858
+},
+"VBDllCanUnloadNow": {
+"ordinal": 102,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932491209
+},
+"VBDllGetClassObject": {
+"ordinal": 104,
+"regs": [],
+"ret": [
+24
+],
+"tail": false,
+"va": 1932455975
+},
+"VBDllRegisterServer": {
+"ordinal": 103,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932972504
+},
+"VBDllUnRegisterServer": {
+"ordinal": 101,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932972640
+},
+"VarPtr": {
+"ordinal": 644,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933111251
+},
+"Zombie_AddRef": {
+"ordinal": 431,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932143160
+},
+"Zombie_GetIDsOfNames": {
+"ordinal": 435,
+"regs": [],
+"ret": [
+24
+],
+"tail": false,
+"va": 1933074677
+},
+"Zombie_GetTypeInfo": {
+"ordinal": 434,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933074661
+},
+"Zombie_GetTypeInfoCount": {
+"ordinal": 433,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933074669
+},
+"Zombie_Invoke": {
+"ordinal": 436,
+"regs": [],
+"ret": [
+36
+],
+"tail": false,
+"va": 1933074685
+},
+"Zombie_QueryInterface": {
+"ordinal": 430,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932248191
+},
+"Zombie_Release": {
+"ordinal": 432,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932142518
+},
+"_CIatan": {
+"ordinal": 156,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932409922
+},
+"_CIcos": {
+"ordinal": 157,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932409862
+},
+"_CIexp": {
+"ordinal": 158,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932253328
+},
+"_CIlog": {
+"ordinal": 159,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932409533
+},
+"_CIsin": {
+"ordinal": 160,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932409776
+},
+"_CIsqrt": {
+"ordinal": 161,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932409639
+},
+"_CItan": {
+"ordinal": 162,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933189224
+},
+"__vbaAptOffset": {
+"ordinal": 163,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933100000
+},
+"__vbaAryConstruct": {
+"ordinal": 165,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933107073
+},
+"__vbaAryConstruct2": {
+"ordinal": 164,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932409882
+},
+"__vbaAryCopy": {
+"ordinal": 166,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933075687
+},
+"__vbaAryDestruct": {
+"ordinal": 167,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932510908
+},
+"__vbaAryLock": {
+"ordinal": 108,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933107099
+},
+"__vbaAryMove": {
+"ordinal": 168,
+"regs": [],
+"ret": [
+0,
+8
+],
+"tail": false,
+"va": 1932511153
+},
+"__vbaAryRebase1Var": {
+"ordinal": 169,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933106207
+},
+"__vbaAryRecCopy": {
+"ordinal": 170,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933075742
+},
+"__vbaAryRecMove": {
+"ordinal": 171,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933075867
+},
+"__vbaAryUnlock": {
+"ordinal": 172,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933107134
+},
+"__vbaAryVar": {
+"ordinal": 173,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933251400
+},
+"__vbaAryVarVarg": {
+"ordinal": 117,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933254564
+},
+"__vbaBoolErrVar": {
+"ordinal": 109,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933120188
+},
+"__vbaBoolStr": {
+"ordinal": 174,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932492163
+},
+"__vbaBoolVar": {
+"ordinal": 175,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932308042
+},
+"__vbaBoolVarNull": {
+"ordinal": 176,
+"regs": [],
+"ret": [
+4
+],
+"tail": true,
+"va": 1933206146
+},
+"__vbaCVarAryUdt": {
+"ordinal": 177,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933106286
+},
+"__vbaCastObj": {
+"ordinal": 178,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933205753
+},
+"__vbaCastObjVar": {
+"ordinal": 179,
+"regs": [],
+"ret": [
+4,
+8,
+16
+],
+"tail": false,
+"va": 1932509514
+},
+"__vbaCheckType": {
+"ordinal": 180,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932310660
+},
+"__vbaCheckTypeVar": {
+"ordinal": 181,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933102458
+},
+"__vbaChkstk": {
+"ordinal": 182,
+"regs": [
+"eax"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932508840
+},
+"__vbaCopyBytes": {
+"ordinal": 183,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932437728
+},
+"__vbaCopyBytesZero": {
+"ordinal": 184,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933103629
+},
+"__vbaCyAbs": {
+"ordinal": 185,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933140413
+},
+"__vbaCyAdd": {
+"ordinal": 188,
+"regs": [],
+"ret": [
+8,
+16
+],
+"tail": false,
+"va": 1933140235
+},
+"__vbaCyErrVar": {
+"ordinal": 189,
+"regs": [],
+"ret": [],
+"tail": true,
+"va": 1933129484
+},
+"__vbaCyFix": {
+"ordinal": 191,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933140092
+},
+"__vbaCyForInit": {
+"ordinal": 192,
+"regs": [],
+"ret": [
+28
+],
+"tail": false,
+"va": 1933258225
+},
+"__vbaCyForNext": {
+"ordinal": 193,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933258265
+},
+"__vbaCyI2": {
+"ordinal": 194,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933120078
+},
+"__vbaCyI4": {
+"ordinal": 196,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933120096
+},
+"__vbaCyInt": {
+"ordinal": 197,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933140140
+},
+"__vbaCyMul": {
+"ordinal": 198,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933140277
+},
+"__vbaCyMulI2": {
+"ordinal": 200,
+"regs": [],
+"ret": [
+8,
+12
+],
+"tail": false,
+"va": 1933140007
+},
+"__vbaCySgn": {
+"ordinal": 201,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933129442
+},
+"__vbaCyStr": {
+"ordinal": 202,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933119294
+},
+"__vbaCySub": {
+"ordinal": 203,
+"regs": [],
+"ret": [
+8,
+16
+],
+"tail": false,
+"va": 1933140256
+},
+"__vbaCyUI1": {
+"ordinal": 204,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933120060
+},
+"__vbaCyVar": {
+"ordinal": 205,
+"regs": [],
+"ret": [],
+"tail": true,
+"va": 1933129494
+},
+"__vbaDateR4": {
+"ordinal": 206,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933120126
+},
+"__vbaDateR8": {
+"ordinal": 207,
+"regs": [],
+"ret": [
+0,
+8
+],
+"tail": false,
+"va": 1932562953
+},
+"__vbaDateStr": {
+"ordinal": 208,
+"regs": [],
+"ret": [
+4,
+8,
+16
+],
+"tail": false,
+"va": 1932485816
+},
+"__vbaDateVar": {
+"ordinal": 209,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932547546
+},
+"__vbaDerefAry": {
+"ordinal": 210,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933106532
+},
+"__vbaDerefAry1": {
+"ordinal": 211,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933106470
+},
+"__vbaEnd": {
+"ordinal": 212,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1932251481
+},
+"__vbaErase": {
+"ordinal": 213,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932510985
+},
+"__vbaEraseKeepData": {
+"ordinal": 214,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933106239
+},
+"__vbaEraseNoPop": {
+"ordinal": 215,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933106434
+},
+"__vbaError": {
+"ordinal": 216,
+"regs": [],
+"ret": [],
+"tail": false,
+"va": 1933079348
+},
+"__vbaErrorOverflow": {
+"ordinal": 217,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933079373
+},
+"__vbaExceptHandler": {
+"ordinal": 218,
+"regs": [],
+"ret": [
+0,
+4
+],
+"tail": false,
+"va": 1932250976
+},
+"__vbaExitEachAry": {
+"ordinal": 219,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933252558
+},
+"__vbaExitEachColl": {
+"ordinal": 221,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933252592
+},
+"__vbaExitEachVar": {
+"ordinal": 222,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933252526
+},
+"__vbaExitProc": {
+"ordinal": 223,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932509028
+},
+"__vbaFPException": {
+"ordinal": 224,
+"regs": [],
+"ret": [],
+"tail": false,
+"va": 1933254596
+},
+"__vbaFPFix": {
+"ordinal": 225,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932410023
+},
+"__vbaFPInt": {
+"ordinal": 226,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933140395
+},
+"__vbaFailedFriend": {
+"ordinal": 228,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933074993
+},
+"__vbaFileClose": {
+"ordinal": 229,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932508585
+},
+"__vbaFileCloseAll": {
+"ordinal": 233,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932431314
+},
+"__vbaFileLock": {
+"ordinal": 234,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933131919
+},
+"__vbaFileOpen": {
+"ordinal": 235,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1932302386
+},
+"__vbaFileSeek": {
+"ordinal": 236,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933129649
+},
+"__vbaFixstrConstruct": {
+"ordinal": 237,
+"regs": [],
+"ret": [
+0,
+8
+],
+"tail": false,
+"va": 1932431322
+},
+"__vbaForEachAry": {
+"ordinal": 238,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933252158
+},
+"__vbaForEachCollAd": {
+"ordinal": 239,
+"regs": [],
+"ret": [
+4,
+12
+],
+"tail": false,
+"va": 1933217997
+},
+"__vbaForEachCollObj": {
+"ordinal": 240,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933218516
+},
+"__vbaForEachCollVar": {
+"ordinal": 241,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933218072
+},
+"__vbaForEachVar": {
+"ordinal": 242,
+"regs": [],
+"ret": [
+12,
+24
+],
+"tail": false,
+"va": 1933252287
+},
+"__vbaFpCDblR4": {
+"ordinal": 118,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933254770
+},
+"__vbaFpCDblR8": {
+"ordinal": 119,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933254770
+},
+"__vbaFpCSngR4": {
+"ordinal": 120,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933254747
+},
+"__vbaFpCSngR8": {
+"ordinal": 121,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933254747
+},
+"__vbaFpCmpCy": {
+"ordinal": 122,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933254793
+},
+"__vbaFpCy": {
+"ordinal": 123,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933254666
+},
+"__vbaFpI2": {
+"ordinal": 124,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933208969
+},
+"__vbaFpI4": {
+"ordinal": 125,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933208688
+},
+"__vbaFpR4": {
+"ordinal": 126,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933219200
+},
+"__vbaFpR8": {
+"ordinal": 127,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933208572
+},
+"__vbaFpUI1": {
+"ordinal": 128,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933254629
+},
+"__vbaFreeObj": {
+"ordinal": 129,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932508605
+},
+"__vbaFreeObjList": {
+"ordinal": 243,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932509548
+},
+"__vbaFreeStr": {
+"ordinal": 130,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932508564
+},
+"__vbaFreeStrList": {
+"ordinal": 244,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932508748
+},
+"__vbaFreeVar": {
+"ordinal": 131,
+"regs": [
+"ecx"
+],
+"ret": [
+0,
+4
+],
+"tail": true,
+"va": 1933205791
+},
+"__vbaFreeVarList": {
+"ordinal": 245,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933208529
+},
+"__vbaFreeVarg": {
+"ordinal": 132,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": true,
+"va": 1933253385
+},
+"__vbaGenerateBoundsError": {
+"ordinal": 246,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933106820
+},
+"__vbaGet3": {
+"ordinal": 247,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932546123
+},
+"__vbaGet4": {
+"ordinal": 248,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933129982
+},
+"__vbaGetFxStr3": {
+"ordinal": 249,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932431377
+},
+"__vbaGetFxStr4": {
+"ordinal": 250,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933130126
+},
+"__vbaGetOwner3": {
+"ordinal": 251,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932431267
+},
+"__vbaGetOwner4": {
+"ordinal": 252,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933130041
+},
+"__vbaGosub": {
+"ordinal": 253,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933251637
+},
+"__vbaGosubFree": {
+"ordinal": 254,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933251721
+},
+"__vbaGosubReturn": {
+"ordinal": 255,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933251678
+},
+"__vbaHresultCheck": {
+"ordinal": 256,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933103728
+},
+"__vbaHresultCheckNonvirt": {
+"ordinal": 257,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933103742
+},
+"__vbaHresultCheckObj": {
+"ordinal": 258,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1932251491
+},
+"__vbaI2Abs": {
+"ordinal": 133,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932463102
+},
+"__vbaI2Cy": {
+"ordinal": 259,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933254711
+},
+"__vbaI2ErrVar": {
+"ordinal": 260,
+"regs": [],
+"ret": [],
+"tail": true,
+"va": 1932484361
+},
+"__vbaI2ForNextCheck": {
+"ordinal": 261,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933258385
+},
+"__vbaI2I4": {
+"ordinal": 134,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932508818
+},
+"__vbaI2Sgn": {
+"ordinal": 135,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933129287
+},
+"__vbaI2Str": {
+"ordinal": 262,
+"regs": [],
+"ret": [
+4,
+44
+],
+"tail": false,
+"va": 1932464396
+},
+"__vbaI2Var": {
+"ordinal": 263,
+"regs": [],
+"ret": [],
+"tail": true,
+"va": 1932316232
+},
+"__vbaI4Abs": {
+"ordinal": 136,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933129246
+},
+"__vbaI4Cy": {
+"ordinal": 264,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933254729
+},
+"__vbaI4ErrVar": {
+"ordinal": 267,
+"regs": [],
+"ret": [],
+"tail": true,
+"va": 1932265612
+},
+"__vbaI4ForNextCheck": {
+"ordinal": 270,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933258425
+},
+"__vbaI4Sgn": {
+"ordinal": 137,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933129311
+},
+"__vbaI4Str": {
+"ordinal": 272,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932491169
+},
+"__vbaI4Var": {
+"ordinal": 273,
+"regs": [],
+"ret": [],
+"tail": true,
+"va": 1932308098
+},
+"__vbaInStr": {
+"ordinal": 277,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1932506832
+},
+"__vbaInStrB": {
+"ordinal": 278,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933133645
+},
+"__vbaInStrVar": {
+"ordinal": 279,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1932509095
+},
+"__vbaInStrVarB": {
+"ordinal": 280,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933133336
+},
+"__vbaInputFile": {
+"ordinal": 281,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933096316
+},
+"__vbaLateIdCall": {
+"ordinal": 282,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933209486
+},
+"__vbaLateIdCallLd": {
+"ordinal": 283,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933209455
+},
+"__vbaLateIdCallSt": {
+"ordinal": 285,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257575
+},
+"__vbaLateIdNamedCall": {
+"ordinal": 286,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257718
+},
+"__vbaLateIdNamedCallLd": {
+"ordinal": 287,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257646
+},
+"__vbaLateIdNamedCallSt": {
+"ordinal": 288,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257686
+},
+"__vbaLateIdNamedStAd": {
+"ordinal": 289,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257754
+},
+"__vbaLateIdSt": {
+"ordinal": 290,
+"regs": [],
+"ret": [
+24
+],
+"tail": false,
+"va": 1933209368
+},
+"__vbaLateIdStAd": {
+"ordinal": 291,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257621
+},
+"__vbaLateMemCall": {
+"ordinal": 292,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933208652
+},
+"__vbaLateMemCallLd": {
+"ordinal": 293,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933208904
+},
+"__vbaLateMemCallSt": {
+"ordinal": 294,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257788
+},
+"__vbaLateMemNamedCall": {
+"ordinal": 295,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257892
+},
+"__vbaLateMemNamedCallLd": {
+"ordinal": 296,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257820
+},
+"__vbaLateMemNamedCallSt": {
+"ordinal": 297,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257860
+},
+"__vbaLateMemNamedStAd": {
+"ordinal": 322,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257928
+},
+"__vbaLateMemSt": {
+"ordinal": 323,
+"regs": [],
+"ret": [
+24
+],
+"tail": false,
+"va": 1933208617
+},
+"__vbaLateMemStAd": {
+"ordinal": 324,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933209421
+},
+"__vbaLbound": {
+"ordinal": 325,
+"regs": [],
+"ret": [
+8,
+12
+],
+"tail": false,
+"va": 1932493405
+},
+"__vbaLdZeroAry": {
+"ordinal": 326,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933251472
+},
+"__vbaLenBstr": {
+"ordinal": 327,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932306899
+},
+"__vbaLenBstrB": {
+"ordinal": 328,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933132710
+},
+"__vbaLenVar": {
+"ordinal": 329,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932251955
+},
+"__vbaLenVarB": {
+"ordinal": 330,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933132500
+},
+"__vbaLineInputStr": {
+"ordinal": 331,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1932563916
+},
+"__vbaLineInputVar": {
+"ordinal": 332,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933094545
+},
+"__vbaLsetFixstr": {
+"ordinal": 333,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932431457
+},
+"__vbaLsetFixstrFree": {
+"ordinal": 334,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933133909
+},
+"__vbaMidStmtBstr": {
+"ordinal": 335,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933134893
+},
+"__vbaMidStmtBstrB": {
+"ordinal": 336,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933135103
+},
+"__vbaMidStmtVar": {
+"ordinal": 337,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933134935
+},
+"__vbaMidStmtVarB": {
+"ordinal": 338,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933134974
+},
+"__vbaNameFile": {
+"ordinal": 339,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933099295
+},
+"__vbaNew": {
+"ordinal": 341,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932509821
+},
+"__vbaNew2": {
+"ordinal": 340,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932509774
+},
+"__vbaNextEachAry": {
+"ordinal": 342,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933251779
+},
+"__vbaNextEachCollAd": {
+"ordinal": 343,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1933218437
+},
+"__vbaNextEachCollObj": {
+"ordinal": 344,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933218606
+},
+"__vbaNextEachCollVar": {
+"ordinal": 345,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1933218291
+},
+"__vbaNextEachVar": {
+"ordinal": 346,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933252454
+},
+"__vbaObjAddref": {
+"ordinal": 347,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933103438
+},
+"__vbaObjIs": {
+"ordinal": 348,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932306743
+},
+"__vbaObjSet": {
+"ordinal": 349,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932508625
+},
+"__vbaObjSetAddref": {
+"ordinal": 350,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932508795
+},
+"__vbaObjVar": {
+"ordinal": 351,
+"regs": [],
+"ret": [
+4,
+16
+],
+"tail": false,
+"va": 1932251842
+},
+"__vbaOnError": {
+"ordinal": 352,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932508911
+},
+"__vbaOnGoCheck": {
+"ordinal": 353,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933075933
+},
+"__vbaPowerR8": {
+"ordinal": 354,
+"regs": [],
+"ret": [
+4,
+8,
+16
+],
+"tail": false,
+"va": 1932261061
+},
+"__vbaPrintFile": {
+"ordinal": 355,
+"regs": [],
+"ret": [
+0,
+16
+],
+"tail": true,
+"va": 1932304654
+},
+"__vbaPrintObj": {
+"ordinal": 356,
+"regs": [],
+"ret": [
+0,
+16
+],
+"tail": true,
+"va": 1932430088
+},
+"__vbaPut3": {
+"ordinal": 357,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932431061
+},
+"__vbaPut4": {
+"ordinal": 358,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933130012
+},
+"__vbaPutFxStr3": {
+"ordinal": 359,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933130100
+},
+"__vbaPutFxStr4": {
+"ordinal": 360,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933130154
+},
+"__vbaPutOwner3": {
+"ordinal": 361,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932565333
+},
+"__vbaPutOwner4": {
+"ordinal": 362,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933130071
+},
+"__vbaR4Cy": {
+"ordinal": 363,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933120113
+},
+"__vbaR4ErrVar": {
+"ordinal": 364,
+"regs": [],
+"ret": [],
+"tail": true,
+"va": 1933129504
+},
+"__vbaR4ForNextCheck": {
+"ordinal": 365,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933258461
+},
+"__vbaR4Sgn": {
+"ordinal": 366,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933129332
+},
+"__vbaR4Str": {
+"ordinal": 367,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932492228
+},
+"__vbaR4Var": {
+"ordinal": 368,
+"regs": [],
+"ret": [],
+"tail": true,
+"va": 1932250893
+},
+"__vbaR8Cy": {
+"ordinal": 369,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932408688
+},
+"__vbaR8ErrVar": {
+"ordinal": 370,
+"regs": [],
+"ret": [],
+"tail": true,
+"va": 1933129514
+},
+"__vbaR8FixI2": {
+"ordinal": 371,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933140326
+},
+"__vbaR8FixI4": {
+"ordinal": 372,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932410000
+},
+"__vbaR8ForNextCheck": {
+"ordinal": 373,
+"regs": [],
+"ret": [
+24
+],
+"tail": false,
+"va": 1933208996
+},
+"__vbaR8IntI2": {
+"ordinal": 374,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933140349
+},
+"__vbaR8IntI4": {
+"ordinal": 375,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933140372
+},
+"__vbaR8Sgn": {
+"ordinal": 376,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933129387
+},
+"__vbaR8Str": {
+"ordinal": 377,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933119245
+},
+"__vbaR8Var": {
+"ordinal": 378,
+"regs": [],
+"ret": [],
+"tail": true,
+"va": 1932319400
+},
+"__vbaRaiseEvent": {
+"ordinal": 379,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257598
+},
+"__vbaRecAnsiToUni": {
+"ordinal": 380,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932500428
+},
+"__vbaRecAssign": {
+"ordinal": 381,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933105223
+},
+"__vbaRecDestruct": {
+"ordinal": 382,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932437790
+},
+"__vbaRecDestructAnsi": {
+"ordinal": 383,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932437765
+},
+"__vbaRecUniToAnsi": {
+"ordinal": 384,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932500104
+},
+"__vbaRedim": {
+"ordinal": 385,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932253040
+},
+"__vbaRedimPreserve": {
+"ordinal": 386,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932565360
+},
+"__vbaRedimPreserveVar": {
+"ordinal": 387,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933106686
+},
+"__vbaRedimPreserveVar2": {
+"ordinal": 388,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933106770
+},
+"__vbaRedimVar": {
+"ordinal": 389,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933106652
+},
+"__vbaRedimVar2": {
+"ordinal": 110,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933106720
+},
+"__vbaRefVarAry": {
+"ordinal": 390,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932489548
+},
+"__vbaResume": {
+"ordinal": 391,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933128996
+},
+"__vbaRsetFixstr": {
+"ordinal": 392,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933134171
+},
+"__vbaRsetFixstrFree": {
+"ordinal": 393,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933134440
+},
+"__vbaSetSystemError": {
+"ordinal": 394,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932338055
+},
+"__vbaStopExe": {
+"ordinal": 395,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933074931
+},
+"__vbaStr2Vec": {
+"ordinal": 396,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933209061
+},
+"__vbaStrAryToAnsi": {
+"ordinal": 397,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933075386
+},
+"__vbaStrAryToUnicode": {
+"ordinal": 398,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933075408
+},
+"__vbaStrBool": {
+"ordinal": 399,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933117333
+},
+"__vbaStrCat": {
+"ordinal": 405,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932503519
+},
+"__vbaStrCmp": {
+"ordinal": 406,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932508730
+},
+"__vbaStrComp": {
+"ordinal": 407,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932503553
+},
+"__vbaStrCompVar": {
+"ordinal": 408,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933134752
+},
+"__vbaStrCopy": {
+"ordinal": 138,
+"regs": [
+"ecx",
+"edx"
+],
+"ret": [
+0,
+8
+],
+"tail": false,
+"va": 1932508648
+},
+"__vbaStrCy": {
+"ordinal": 409,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933117516
+},
+"__vbaStrDate": {
+"ordinal": 415,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933117449
+},
+"__vbaStrErrVarCopy": {
+"ordinal": 111,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933120176
+},
+"__vbaStrFixstr": {
+"ordinal": 416,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933139973
+},
+"__vbaStrI2": {
+"ordinal": 417,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1932317966
+},
+"__vbaStrI4": {
+"ordinal": 418,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1932319360
+},
+"__vbaStrLike": {
+"ordinal": 419,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933139879
+},
+"__vbaStrMove": {
+"ordinal": 139,
+"regs": [
+"ecx",
+"edx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932508702
+},
+"__vbaStrR4": {
+"ordinal": 422,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1932493553
+},
+"__vbaStrR8": {
+"ordinal": 423,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1932490032
+},
+"__vbaStrTextCmp": {
+"ordinal": 424,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932561588
+},
+"__vbaStrTextLike": {
+"ordinal": 425,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933139900
+},
+"__vbaStrToAnsi": {
+"ordinal": 426,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932153347
+},
+"__vbaStrToUnicode": {
+"ordinal": 427,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932499232
+},
+"__vbaStrUI1": {
+"ordinal": 428,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933117398
+},
+"__vbaStrVarCopy": {
+"ordinal": 429,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933117567
+},
+"__vbaStrVarMove": {
+"ordinal": 437,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932509062
+},
+"__vbaStrVarVal": {
+"ordinal": 438,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932509354
+},
+"__vbaUI1Cy": {
+"ordinal": 439,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933254693
+},
+"__vbaUI1ErrVar": {
+"ordinal": 442,
+"regs": [],
+"ret": [],
+"tail": true,
+"va": 1933129464
+},
+"__vbaUI1I2": {
+"ordinal": 140,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932565314
+},
+"__vbaUI1I4": {
+"ordinal": 141,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932431295
+},
+"__vbaUI1Sgn": {
+"ordinal": 142,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933129268
+},
+"__vbaUI1Str": {
+"ordinal": 443,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933120028
+},
+"__vbaUI1Var": {
+"ordinal": 444,
+"regs": [],
+"ret": [],
+"tail": true,
+"va": 1933129474
+},
+"__vbaUbound": {
+"ordinal": 445,
+"regs": [],
+"ret": [
+8,
+12
+],
+"tail": false,
+"va": 1932511090
+},
+"__vbaUdtVar": {
+"ordinal": 446,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933251353
+},
+"__vbaUnkVar": {
+"ordinal": 447,
+"regs": [],
+"ret": [
+4,
+16
+],
+"tail": false,
+"va": 1932251930
+},
+"__vbaVar2Vec": {
+"ordinal": 448,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933219220
+},
+"__vbaVarAbs": {
+"ordinal": 449,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933254880
+},
+"__vbaVarAdd": {
+"ordinal": 450,
+"regs": [],
+"ret": [
+12,
+16
+],
+"tail": false,
+"va": 1933208332
+},
+"__vbaVarAnd": {
+"ordinal": 451,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933206274
+},
+"__vbaVarCat": {
+"ordinal": 452,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932308352
+},
+"__vbaVarCmpEq": {
+"ordinal": 453,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933258811
+},
+"__vbaVarCmpGe": {
+"ordinal": 454,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933258864
+},
+"__vbaVarCmpGt": {
+"ordinal": 455,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933258917
+},
+"__vbaVarCmpLe": {
+"ordinal": 456,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933258970
+},
+"__vbaVarCmpLt": {
+"ordinal": 457,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933209318
+},
+"__vbaVarCmpNe": {
+"ordinal": 458,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933209209
+},
+"__vbaVarCopy": {
+"ordinal": 143,
+"regs": [
+"ecx",
+"edx"
+],
+"ret": [
+0
+],
+"tail": true,
+"va": 1933207359
+},
+"__vbaVarDateVar": {
+"ordinal": 459,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932547582
+},
+"__vbaVarDiv": {
+"ordinal": 460,
+"regs": [],
+"ret": [
+12,
+16
+],
+"tail": false,
+"va": 1933208270
+},
+"__vbaVarDup": {
+"ordinal": 144,
+"regs": [
+"ecx",
+"edx"
+],
+"ret": [
+0
+],
+"tail": true,
+"va": 1933205994
+},
+"__vbaVarEqv": {
+"ordinal": 461,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933258554
+},
+"__vbaVarErrI4": {
+"ordinal": 462,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933119972
+},
+"__vbaVarFix": {
+"ordinal": 463,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933254917
+},
+"__vbaVarForInit": {
+"ordinal": 464,
+"regs": [],
+"ret": [
+24
+],
+"tail": false,
+"va": 1933218945
+},
+"__vbaVarForNext": {
+"ordinal": 465,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933219149
+},
+"__vbaVarIdiv": {
+"ordinal": 466,
+"regs": [],
+"ret": [
+12,
+16
+],
+"tail": false,
+"va": 1933209716
+},
+"__vbaVarImp": {
+"ordinal": 467,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933258595
+},
+"__vbaVarIndexLoad": {
+"ordinal": 468,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932489580
+},
+"__vbaVarIndexLoadRef": {
+"ordinal": 469,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932467205
+},
+"__vbaVarIndexLoadRefLock": {
+"ordinal": 470,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933106827
+},
+"__vbaVarIndexStore": {
+"ordinal": 471,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933106873
+},
+"__vbaVarIndexStoreObj": {
+"ordinal": 472,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933106900
+},
+"__vbaVarInt": {
+"ordinal": 473,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933254954
+},
+"__vbaVarLateMemCallLd": {
+"ordinal": 112,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933209393
+},
+"__vbaVarLateMemCallLdRf": {
+"ordinal": 113,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257962
+},
+"__vbaVarLateMemCallSt": {
+"ordinal": 114,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933257993
+},
+"__vbaVarLateMemSt": {
+"ordinal": 115,
+"regs": [],
+"ret": [
+24
+],
+"tail": false,
+"va": 1933209513
+},
+"__vbaVarLateMemStAd": {
+"ordinal": 116,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933258020
+},
+"__vbaVarLike": {
+"ordinal": 474,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933139795
+},
+"__vbaVarLikeVar": {
+"ordinal": 475,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933139921
+},
+"__vbaVarMod": {
+"ordinal": 476,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933254839
+},
+"__vbaVarMove": {
+"ordinal": 145,
+"regs": [
+"ecx",
+"edx"
+],
+"ret": [
+0
+],
+"tail": true,
+"va": 1933208715
+},
+"__vbaVarMul": {
+"ordinal": 477,
+"regs": [],
+"ret": [
+12,
+16
+],
+"tail": false,
+"va": 1933209590
+},
+"__vbaVarNeg": {
+"ordinal": 478,
+"regs": [],
+"ret": [
+8,
+16
+],
+"tail": false,
+"va": 1933219171
+},
+"__vbaVarNot": {
+"ordinal": 479,
+"regs": [],
+"ret": [
+8,
+12
+],
+"tail": false,
+"va": 1933208303
+},
+"__vbaVarOr": {
+"ordinal": 480,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933209749
+},
+"__vbaVarPow": {
+"ordinal": 481,
+"regs": [],
+"ret": [
+12,
+16
+],
+"tail": false,
+"va": 1933219991
+},
+"__vbaVarSetObj": {
+"ordinal": 482,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932251888
+},
+"__vbaVarSetObjAddref": {
+"ordinal": 483,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933103459
+},
+"__vbaVarSetUnk": {
+"ordinal": 484,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933103501
+},
+"__vbaVarSetUnkAddref": {
+"ordinal": 485,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933103543
+},
+"__vbaVarSetVar": {
+"ordinal": 486,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933103585
+},
+"__vbaVarSetVarAddref": {
+"ordinal": 487,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933103607
+},
+"__vbaVarSub": {
+"ordinal": 488,
+"regs": [],
+"ret": [
+12,
+16
+],
+"tail": false,
+"va": 1933209683
+},
+"__vbaVarTextCmpEq": {
+"ordinal": 489,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933259023
+},
+"__vbaVarTextCmpGe": {
+"ordinal": 490,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933259129
+},
+"__vbaVarTextCmpGt": {
+"ordinal": 491,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933259182
+},
+"__vbaVarTextCmpLe": {
+"ordinal": 492,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933259235
+},
+"__vbaVarTextCmpLt": {
+"ordinal": 493,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933259288
+},
+"__vbaVarTextCmpNe": {
+"ordinal": 494,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933259076
+},
+"__vbaVarTextLike": {
+"ordinal": 495,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933139837
+},
+"__vbaVarTextLikeVar": {
+"ordinal": 496,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933139947
+},
+"__vbaVarTextTstEq": {
+"ordinal": 497,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933258661
+},
+"__vbaVarTextTstGe": {
+"ordinal": 498,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933258711
+},
+"__vbaVarTextTstGt": {
+"ordinal": 499,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933258736
+},
+"__vbaVarTextTstLe": {
+"ordinal": 500,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933258761
+},
+"__vbaVarTextTstLt": {
+"ordinal": 501,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933258786
+},
+"__vbaVarTextTstNe": {
+"ordinal": 502,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933258686
+},
+"__vbaVarTstEq": {
+"ordinal": 503,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933209540
+},
+"__vbaVarTstGe": {
+"ordinal": 504,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933258636
+},
+"__vbaVarTstGt": {
+"ordinal": 505,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933209658
+},
+"__vbaVarTstLe": {
+"ordinal": 506,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933209565
+},
+"__vbaVarTstLt": {
+"ordinal": 507,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933208944
+},
+"__vbaVarTstNe": {
+"ordinal": 508,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933208592
+},
+"__vbaVarVargNofree": {
+"ordinal": 146,
+"regs": [
+"ecx",
+"edx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933209623
+},
+"__vbaVarXor": {
+"ordinal": 509,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933258513
+},
+"__vbaVarZero": {
+"ordinal": 147,
+"regs": [
+"ecx",
+"edx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933253614
+},
+"__vbaVargObj": {
+"ordinal": 510,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933254160
+},
+"__vbaVargObjAddref": {
+"ordinal": 511,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933254264
+},
+"__vbaVargParmRef": {
+"ordinal": 148,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933254001
+},
+"__vbaVargUnk": {
+"ordinal": 602,
+"regs": [],
+"ret": [
+0,
+8
+],
+"tail": false,
+"va": 1933254368
+},
+"__vbaVargUnkAddref": {
+"ordinal": 603,
+"regs": [],
+"ret": [
+0,
+8
+],
+"tail": false,
+"va": 1933254466
+},
+"__vbaVargVar": {
+"ordinal": 149,
+"regs": [
+"ecx"
+],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933254014
+},
+"__vbaVargVarCopy": {
+"ordinal": 150,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933254144
+},
+"__vbaVargVarMove": {
+"ordinal": 151,
+"regs": [
+"ecx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933254128
+},
+"__vbaVargVarRef": {
+"ordinal": 152,
+"regs": [
+"ecx",
+"edx"
+],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933254081
+},
+"__vbaVerifyVarObj": {
+"ordinal": 604,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933103687
+},
+"__vbaWriteFile": {
+"ordinal": 623,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933097850
+},
+"_adj_fdiv_m16i": {
+"ordinal": 659,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933159399
+},
+"_adj_fdiv_m32": {
+"ordinal": 688,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933159247
+},
+"_adj_fdiv_m32i": {
+"ordinal": 701,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933159451
+},
+"_adj_fdiv_m64": {
+"ordinal": 718,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933159323
+},
+"_adj_fdiv_r": {
+"ordinal": 719,
+"regs": [
+"eax"
+],
+"ret": [],
+"tail": true,
+"va": 1933158026
+},
+"_adj_fdivr_m16i": {
+"ordinal": 720,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933159655
+},
+"_adj_fdivr_m32": {
+"ordinal": 721,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933159503
+},
+"_adj_fdivr_m32i": {
+"ordinal": 722,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933159707
+},
+"_adj_fdivr_m64": {
+"ordinal": 723,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933159579
+},
+"_adj_fpatan": {
+"ordinal": 724,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933161175
+},
+"_adj_fprem": {
+"ordinal": 725,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933160298
+},
+"_adj_fprem1": {
+"ordinal": 726,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933160994
+},
+"_adj_fptan": {
+"ordinal": 727,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933161178
+},
+"_allmul": {
+"ordinal": 728,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933154809
+},
+"rtBoolFromErrVar": {
+"ordinal": 635,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933118818
+},
+"rtBstrFromErrVar": {
+"ordinal": 634,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933117657
+},
+"rtCyFromErrVar": {
+"ordinal": 636,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933117224
+},
+"rtDecFromVar": {
+"ordinal": 564,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933116668
+},
+"rtI2FromErrVar": {
+"ordinal": 637,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933116756
+},
+"rtI4FromErrVar": {
+"ordinal": 638,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933116867
+},
+"rtR4FromErrVar": {
+"ordinal": 639,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933116962
+},
+"rtR8FromErrVar": {
+"ordinal": 640,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933117071
+},
+"rtUI1FromErrVar": {
+"ordinal": 686,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933118901
+},
+"rtcAbsVar": {
+"ordinal": 656,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933118172
+},
+"rtcAnsiValueBstr": {
+"ordinal": 516,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932316316
+},
+"rtcAppActivate": {
+"ordinal": 597,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933108001
+},
+"rtcAppleScript": {
+"ordinal": 627,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933177292
+},
+"rtcArray": {
+"ordinal": 601,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933219341
+},
+"rtcAtn": {
+"ordinal": 585,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933107911
+},
+"rtcBeep": {
+"ordinal": 534,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933107159
+},
+"rtcBstrFromAnsi": {
+"ordinal": 537,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932509264
+},
+"rtcBstrFromByte": {
+"ordinal": 694,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933119017
+},
+"rtcBstrFromChar": {
+"ordinal": 697,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933119093
+},
+"rtcBstrFromError": {
+"ordinal": 651,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932320586
+},
+"rtcBstrFromFormatVar": {
+"ordinal": 650,
+"regs": [
+"edx"
+],
+"ret": [
+16
+],
+"tail": false,
+"va": 1932509872
+},
+"rtcByteValueBstr": {
+"ordinal": 693,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933132970
+},
+"rtcCVErrFromVar": {
+"ordinal": 643,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933118026
+},
+"rtcCallByName": {
+"ordinal": 715,
+"regs": [],
+"ret": [
+24
+],
+"tail": false,
+"va": 1933111258
+},
+"rtcChangeDir": {
+"ordinal": 530,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933098528
+},
+"rtcChangeDrive": {
+"ordinal": 533,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933099416
+},
+"rtcCharValueBstr": {
+"ordinal": 696,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933133003
+},
+"rtcChoose": {
+"ordinal": 665,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933110944
+},
+"rtcCommandBstr": {
+"ordinal": 669,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932223363
+},
+"rtcCommandVar": {
+"ordinal": 670,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932254140
+},
+"rtcCompareBstr": {
+"ordinal": 649,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933134708
+},
+"rtcCos": {
+"ordinal": 583,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933107822
+},
+"rtcCreateObject": {
+"ordinal": 625,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933102572
+},
+"rtcCreateObject2": {
+"ordinal": 716,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932441446
+},
+"rtcCurrentDir": {
+"ordinal": 647,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933097930
+},
+"rtcCurrentDirBstr": {
+"ordinal": 646,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933098099
+},
+"rtcDDB": {
+"ordinal": 673,
+"regs": [],
+"ret": [
+36
+],
+"tail": false,
+"va": 1933177890
+},
+"rtcDateAdd": {
+"ordinal": 661,
+"regs": [],
+"ret": [
+20
+],
+"tail": true,
+"va": 1933092225
+},
+"rtcDateDiff": {
+"ordinal": 662,
+"regs": [],
+"ret": [
+8,
+20,
+24
+],
+"tail": true,
+"va": 1933092796
+},
+"rtcDateFromVar": {
+"ordinal": 641,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933118764
+},
+"rtcDatePart": {
+"ordinal": 663,
+"regs": [],
+"ret": [
+8,
+20
+],
+"tail": true,
+"va": 1933093616
+},
+"rtcDeleteSetting": {
+"ordinal": 691,
+"regs": [],
+"ret": [
+36
+],
+"tail": false,
+"va": 1933182291
+},
+"rtcDir": {
+"ordinal": 645,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932542916
+},
+"rtcDoEvents": {
+"ordinal": 598,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932310834
+},
+"rtcEndOfFile": {
+"ordinal": 571,
+"regs": [],
+"ret": [
+4,
+12
+],
+"tail": false,
+"va": 1932552686
+},
+"rtcEnvironBstr": {
+"ordinal": 667,
+"regs": [],
+"ret": [
+0,
+4
+],
+"tail": false,
+"va": 1932546544
+},
+"rtcEnvironVar": {
+"ordinal": 666,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932493362
+},
+"rtcErrObj": {
+"ordinal": 685,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932306915
+},
+"rtcExp": {
+"ordinal": 586,
+"regs": [],
+"ret": [
+8,
+12
+],
+"tail": false,
+"va": 1932489961
+},
+"rtcFV": {
+"ordinal": 678,
+"regs": [
+"ecx"
+],
+"ret": [
+32
+],
+"tail": false,
+"va": 1933179016
+},
+"rtcFileAttributes": {
+"ordinal": 555,
+"regs": [],
+"ret": [
+0,
+8
+],
+"tail": false,
+"va": 1933096645
+},
+"rtcFileCopy": {
+"ordinal": 576,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932563016
+},
+"rtcFileDateTime": {
+"ordinal": 577,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933098745
+},
+"rtcFileLen": {
+"ordinal": 578,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1932430907
+},
+"rtcFileLength": {
+"ordinal": 570,
+"regs": [],
+"ret": [
+4,
+16
+],
+"tail": false,
+"va": 1932545950
+},
+"rtcFileLocation": {
+"ordinal": 569,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933129840
+},
+"rtcFileReset": {
+"ordinal": 554,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933096500
+},
+"rtcFileSeek": {
+"ordinal": 568,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933129524
+},
+"rtcFileWidth": {
+"ordinal": 565,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933096539
+},
+"rtcFilter": {
+"ordinal": 708,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933185610
+},
+"rtcFixVar": {
+"ordinal": 655,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933118092
+},
+"rtcFormatCurrency": {
+"ordinal": 703,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933177570
+},
+"rtcFormatDateTime": {
+"ordinal": 705,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933177351
+},
+"rtcFormatNumber": {
+"ordinal": 702,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933177418
+},
+"rtcFormatPercent": {
+"ordinal": 704,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933177494
+},
+"rtcFreeFile": {
+"ordinal": 648,
+"regs": [],
+"ret": [
+4,
+12
+],
+"tail": false,
+"va": 1932306566
+},
+"rtcGetAllSettings": {
+"ordinal": 692,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933183199
+},
+"rtcGetCurrentCalendar": {
+"ordinal": 700,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932503599
+},
+"rtcGetDateBstr": {
+"ordinal": 609,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933091626
+},
+"rtcGetDateValue": {
+"ordinal": 540,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933089638
+},
+"rtcGetDateVar": {
+"ordinal": 610,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932484968
+},
+"rtcGetDayOfMonth": {
+"ordinal": 542,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932485364
+},
+"rtcGetDayOfWeek": {
+"ordinal": 552,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933089855
+},
+"rtcGetErl": {
+"ordinal": 605,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933107168
+},
+"rtcGetFileAttr": {
+"ordinal": 579,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933098948
+},
+"rtcGetHostLCID": {
+"ordinal": 624,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933078069
+},
+"rtcGetHourOfDay": {
+"ordinal": 543,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933089967
+},
+"rtcGetMinuteOfHour": {
+"ordinal": 544,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933090034
+},
+"rtcGetMonthOfYear": {
+"ordinal": 545,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932485224
+},
+"rtcGetObject": {
+"ordinal": 626,
+"regs": [
+"ecx"
+],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933102718
+},
+"rtcGetPresentDate": {
+"ordinal": 546,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1932510059
+},
+"rtcGetSecondOfMinute": {
+"ordinal": 547,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933090101
+},
+"rtcGetSetting": {
+"ordinal": 689,
+"regs": [],
+"ret": [
+28
+],
+"tail": false,
+"va": 1933181668
+},
+"rtcGetTimeBstr": {
+"ordinal": 611,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933091820
+},
+"rtcGetTimeValue": {
+"ordinal": 541,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933089749
+},
+"rtcGetTimeVar": {
+"ordinal": 612,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933091548
+},
+"rtcGetTimer": {
+"ordinal": 535,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1932308860
+},
+"rtcGetYear": {
+"ordinal": 553,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932485427
+},
+"rtcHexBstrFromVar": {
+"ordinal": 572,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1932265446
+},
+"rtcHexVarFromVar": {
+"ordinal": 573,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932265392
+},
+"rtcIMEStatus": {
+"ordinal": 615,
+"regs": [],
+"ret": [
+0
+],
+"tail": false,
+"va": 1933110211
+},
+"rtcIPMT": {
+"ordinal": 674,
+"regs": [],
+"ret": [
+40
+],
+"tail": false,
+"va": 1933178210
+},
+"rtcIRR": {
+"ordinal": 682,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933180030
+},
+"rtcImmediateIf": {
+"ordinal": 681,
+"regs": [],
+"ret": [
+0,
+4,
+16
+],
+"tail": false,
+"va": 1932252639
+},
+"rtcInStr": {
+"ordinal": 630,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933133188
+},
+"rtcInStrChar": {
+"ordinal": 633,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933133039
+},
+"rtcInStrRev": {
+"ordinal": 709,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933185089
+},
+"rtcInputBox": {
+"ordinal": 596,
+"regs": [],
+"ret": [
+8,
+28
+],
+"tail": false,
+"va": 1933109216
+},
+"rtcInputCharCount": {
+"ordinal": 620,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933094918
+},
+"rtcInputCharCountVar": {
+"ordinal": 621,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933094872
+},
+"rtcInputCount": {
+"ordinal": 566,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933094675
+},
+"rtcInputCountVar": {
+"ordinal": 567,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933094629
+},
+"rtcIntVar": {
+"ordinal": 657,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933118252
+},
+"rtcIsArray": {
+"ordinal": 556,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933107187
+},
+"rtcIsDate": {
+"ordinal": 557,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933107207
+},
+"rtcIsEmpty": {
+"ordinal": 558,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933107422
+},
+"rtcIsError": {
+"ordinal": 559,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933107442
+},
+"rtcIsMissing": {
+"ordinal": 592,
+"regs": [
+"eax"
+],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932311858
+},
+"rtcIsNull": {
+"ordinal": 560,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932493865
+},
+"rtcIsNumeric": {
+"ordinal": 561,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933107466
+},
+"rtcIsObject": {
+"ordinal": 562,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933107758
+},
+"rtcJoin": {
+"ordinal": 710,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933186238
+},
+"rtcKillFiles": {
+"ordinal": 529,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1932314368
+},
+"rtcLeftBstr": {
+"ordinal": 512,
+"regs": [],
+"ret": [
+8,
+12
+],
+"tail": false,
+"va": 1932307351
+},
+"rtcLeftCharBstr": {
+"ordinal": 616,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932307425
+},
+"rtcLeftCharVar": {
+"ordinal": 617,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932253667
+},
+"rtcLeftTrimBstr": {
+"ordinal": 521,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933133974
+},
+"rtcLeftTrimVar": {
+"ordinal": 522,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933134006
+},
+"rtcLeftVar": {
+"ordinal": 513,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932253710
+},
+"rtcLenCharVar": {
+"ordinal": 653,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933132634
+},
+"rtcLenVar": {
+"ordinal": 654,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933132672
+},
+"rtcLog": {
+"ordinal": 587,
+"regs": [],
+"ret": [
+8,
+12
+],
+"tail": false,
+"va": 1932489518
+},
+"rtcLowerCaseBstr": {
+"ordinal": 517,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1932491959
+},
+"rtcLowerCaseVar": {
+"ordinal": 518,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932491875
+},
+"rtcMIRR": {
+"ordinal": 683,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933180783
+},
+"rtcMacId": {
+"ordinal": 590,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933096860
+},
+"rtcMakeDir": {
+"ordinal": 531,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933098561
+},
+"rtcMidBstr": {
+"ordinal": 628,
+"regs": [],
+"ret": [
+12,
+16
+],
+"tail": false,
+"va": 1932307191
+},
+"rtcMidCharBstr": {
+"ordinal": 631,
+"regs": [
+"ecx"
+],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932307112
+},
+"rtcMidCharVar": {
+"ordinal": 632,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1932261721
+},
+"rtcMidVar": {
+"ordinal": 629,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933132867
+},
+"rtcMonthName": {
+"ordinal": 707,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933177708
+},
+"rtcMsgBox": {
+"ordinal": 595,
+"regs": [],
+"ret": [
+8,
+20,
+28
+],
+"tail": false,
+"va": 1933108753
+},
+"rtcNPV": {
+"ordinal": 684,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933181193
+},
+"rtcNPer": {
+"ordinal": 679,
+"regs": [],
+"ret": [
+32
+],
+"tail": false,
+"va": 1933179219
+},
+"rtcOctBstrFromVar": {
+"ordinal": 574,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933119359
+},
+"rtcOctVarFromVar": {
+"ordinal": 575,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933119591
+},
+"rtcPMT": {
+"ordinal": 676,
+"regs": [],
+"ret": [
+32
+],
+"tail": false,
+"va": 1933178629
+},
+"rtcPPMT": {
+"ordinal": 675,
+"regs": [],
+"ret": [
+40
+],
+"tail": false,
+"va": 1933178449
+},
+"rtcPV": {
+"ordinal": 677,
+"regs": [
+"ecx"
+],
+"ret": [
+32
+],
+"tail": false,
+"va": 1933178829
+},
+"rtcPackDate": {
+"ordinal": 538,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933089440
+},
+"rtcPackTime": {
+"ordinal": 539,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933089536
+},
+"rtcPartition": {
+"ordinal": 664,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933110236
+},
+"rtcQBColor": {
+"ordinal": 589,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932265295
+},
+"rtcR8ValFromBstr": {
+"ordinal": 581,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932562492
+},
+"rtcRandomNext": {
+"ordinal": 593,
+"regs": [
+"eax"
+],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932253084
+},
+"rtcRandomize": {
+"ordinal": 594,
+"regs": [
+"eax"
+],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932408933
+},
+"rtcRate": {
+"ordinal": 680,
+"regs": [],
+"ret": [
+36
+],
+"tail": false,
+"va": 1933179511
+},
+"rtcRemoveDir": {
+"ordinal": 532,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933098578
+},
+"rtcReplace": {
+"ordinal": 712,
+"regs": [],
+"ret": [
+24
+],
+"tail": false,
+"va": 1933186924
+},
+"rtcRgb": {
+"ordinal": 588,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932253236
+},
+"rtcRightBstr": {
+"ordinal": 514,
+"regs": [],
+"ret": [
+8,
+12,
+16
+],
+"tail": false,
+"va": 1932313848
+},
+"rtcRightCharBstr": {
+"ordinal": 618,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932313829
+},
+"rtcRightCharVar": {
+"ordinal": 619,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933132824
+},
+"rtcRightTrimBstr": {
+"ordinal": 523,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933134505
+},
+"rtcRightTrimVar": {
+"ordinal": 524,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933134537
+},
+"rtcRightVar": {
+"ordinal": 515,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933132724
+},
+"rtcRound": {
+"ordinal": 714,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932547909
+},
+"rtcSLN": {
+"ordinal": 671,
+"regs": [],
+"ret": [
+24
+],
+"tail": false,
+"va": 1933177767
+},
+"rtcSYD": {
+"ordinal": 672,
+"regs": [],
+"ret": [
+32
+],
+"tail": false,
+"va": 1933177804
+},
+"rtcSaveSetting": {
+"ordinal": 690,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933182106
+},
+"rtcSendKeys": {
+"ordinal": 599,
+"regs": [
+"ecx"
+],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932495523
+},
+"rtcSetCurrentCalendar": {
+"ordinal": 699,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1933094506
+},
+"rtcSetDateBstr": {
+"ordinal": 549,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933090334
+},
+"rtcSetDateVar": {
+"ordinal": 548,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933090260
+},
+"rtcSetFileAttr": {
+"ordinal": 580,
+"regs": [
+"ecx"
+],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933098989
+},
+"rtcSetTimeBstr": {
+"ordinal": 551,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933090913
+},
+"rtcSetTimeVar": {
+"ordinal": 550,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933090826
+},
+"rtcSgnVar": {
+"ordinal": 658,
+"regs": [],
+"ret": [],
+"tail": true,
+"va": 1933118332
+},
+"rtcShell": {
+"ordinal": 600,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933078222
+},
+"rtcSin": {
+"ordinal": 582,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933107781
+},
+"rtcSpaceBstr": {
+"ordinal": 525,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933135300
+},
+"rtcSpaceVar": {
+"ordinal": 526,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933135366
+},
+"rtcSplit": {
+"ordinal": 711,
+"regs": [],
+"ret": [
+4,
+20
+],
+"tail": false,
+"va": 1933183875
+},
+"rtcSqr": {
+"ordinal": 614,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933107922
+},
+"rtcStrConvVar": {
+"ordinal": 622,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933138438
+},
+"rtcStrConvVar2": {
+"ordinal": 717,
+"regs": [],
+"ret": [
+16
+],
+"tail": false,
+"va": 1933138480
+},
+"rtcStrFromVar": {
+"ordinal": 536,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1932407680
+},
+"rtcStrReverse": {
+"ordinal": 713,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1933186841
+},
+"rtcStringBstr": {
+"ordinal": 606,
+"regs": [],
+"ret": [
+8,
+12
+],
+"tail": false,
+"va": 1932501822
+},
+"rtcStringVar": {
+"ordinal": 607,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1932319484
+},
+"rtcSwitch": {
+"ordinal": 668,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933111138
+},
+"rtcTan": {
+"ordinal": 584,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933107863
+},
+"rtcTrimBstr": {
+"ordinal": 519,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1932314236
+},
+"rtcTrimVar": {
+"ordinal": 520,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933133812
+},
+"rtcTypeName": {
+"ordinal": 591,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932492273
+},
+"rtcUpperCaseBstr": {
+"ordinal": 527,
+"regs": [],
+"ret": [
+4,
+8
+],
+"tail": false,
+"va": 1932494939
+},
+"rtcUpperCaseVar": {
+"ordinal": 528,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932494855
+},
+"rtcVarBstrFromAnsi": {
+"ordinal": 608,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932253480
+},
+"rtcVarBstrFromByte": {
+"ordinal": 695,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933119050
+},
+"rtcVarBstrFromChar": {
+"ordinal": 698,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933119158
+},
+"rtcVarDateFromVar": {
+"ordinal": 687,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933118776
+},
+"rtcVarFromError": {
+"ordinal": 652,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932320543
+},
+"rtcVarFromFormatVar": {
+"ordinal": 660,
+"regs": [],
+"ret": [
+20
+],
+"tail": false,
+"va": 1933177299
+},
+"rtcVarFromVar": {
+"ordinal": 642,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1933117966
+},
+"rtcVarStrFromVar": {
+"ordinal": 613,
+"regs": [],
+"ret": [
+8
+],
+"tail": false,
+"va": 1932408634
+},
+"rtcVarType": {
+"ordinal": 563,
+"regs": [],
+"ret": [
+4
+],
+"tail": false,
+"va": 1932320833
+},
+"rtcWeekdayName": {
+"ordinal": 706,
+"regs": [],
+"ret": [
+12
+],
+"tail": false,
+"va": 1933177646
+}
+}

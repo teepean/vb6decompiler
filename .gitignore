@@ -1,0 +1,21 @@
+# Only what is listed here goes into the repository; the rest of this folder (docs, tests, work tools,
+# test targets) stays local.  A new file outside these patterns has to be added here on purpose.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/run_vb6dec.py
+!/decompile.py
+!/vb6dec/
+/vb6dec/*
+!/vb6dec/*.py
+!/vb6dec/*.json
+!/data/
+/data/*
+!/data/runtime_auto.json
+!/tools/
+/tools/*
+!/tools/vbcheck.py
+!/tools/ocxbag/
+__pycache__/
+*.pyc
