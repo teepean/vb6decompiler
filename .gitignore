@@ -19,6 +19,8 @@
 !/tools/
 /tools/*
 !/tools/vbcheck.py
+!/tools/decstats.py
+!/tools/rtother.py
 !/tools/ocxbag/
 __pycache__/
 *.pyc

@@ -76,6 +76,12 @@ A small program takes seconds. A very large one can take ten minutes or more and
 `tools/vbcheck.py PROJECT_DIR` finds some things VB6 would reject in the output. run_vb6dec.py runs it.
 `tools/ocxbag/build.sh` builds `ocxbag.exe` with MinGW.
 
+Two tools compare decompilers. `tools/decstats.py DIR...` counts, per procedure, the machine-level code left in
+decompiled output: runtime helpers left as calls, raw memory, members known only by vtable slot, CPU registers.
+`tools/rtother.py --other 'CMD {exe} {out}' WORKDIR` runs test projects through vb6dec and another decompiler,
+then rebuilds each output with VB6 under Wine and compares its behaviour with the original's. It needs the
+round-trip harness (`roundtrip.py`, `vbmake.py`), which is not in this repository yet.
+
 ## Testing
 
 The test projects are not in this repository. Each one is a small VB6 project written to exercise one
